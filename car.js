@@ -1,7 +1,7 @@
 const WHATSAPP_PHONE = "971552544440";
 const WHATSAPP_URL = "https://wa.me/971552544440";
 let allVehicles = [];
-let currentLanguage = localStorage.getItem("language") || "en";
+let currentLanguage = localStorage.getItem("language") || "ar";
 
 const translations = {
   en: {

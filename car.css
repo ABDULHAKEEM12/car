@@ -2,9 +2,9 @@
 :root {
   --primary-dark: #0f1419;
   --primary-darker: #050609;
-  --accent-main: blue;
-  --accent-secondary: #f7931e;
-  --accent-gold: blue;
+  --accent-main: #d4af37;
+  --accent-secondary: #e8a900;
+  --accent-gold: #d4af37;
   --accent-gold-light: #fff4c1;
   --text-white: #ffffff;
   --text-light: #f0f0f0;
@@ -46,6 +46,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  direction: rtl;
+  text-align: right;
 }
 
 body.light-mode {
@@ -2794,8 +2796,7 @@ body.light-mode .car-category {
   .nav-link.active {
     color: var(--accent-main) !important;
   }
-  }
-
+}
 
 /* iPhone XR and small devices optimization (max 375px) */
 @media (max-width: 375px) {
